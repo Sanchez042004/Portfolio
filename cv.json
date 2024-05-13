@@ -1,0 +1,142 @@
+{
+  "basics": {
+    "name": "Andrés Felipe Sánchez Arias",
+    "label": "Estudiante de Ingeniería en Sistemas y desarrollador/programador",
+    "image": "https://scontent.fbog2-5.fna.fbcdn.net/v/t39.30808-6/436392946_2187834968243424_486216544986292765_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHcj4lMzqnv6yFeWMfYjUceWwODdNJCtMxbA4N00kK0zHPsgpD_41LtdI4pvzTFEBY4foHTl2Wt-KobgYF-V0PN&_nc_ohc=F3ohCvlFwlAQ7kNvgFk26M4&_nc_oc=Adjbd0AtL3tx_FpaUza0UF071QE7y7tUh8pAJzzx9uQP14eVlvhlMvnDlQ5UXjJnzFAo36PcnM-26c-R2Pe2nPA0&_nc_ht=scontent.fbog2-5.fna&oh=00_AYBRSTQkNYoHNYlNhTfdXpfvJVCuHhHuktutnPpZGlRQQg&oe=66477032",
+    "email": "andressanchezcalasanzsuba@gmail.com",
+    "phone": "+57 3012236454",
+    "url": "",
+    "summary": "Como estudiante de Ingeniería en Sistemas, he llevado a cabo múltiples proyectos universitarios. Garantizando siempre un entorno donde las personas puedan hacer su mejor trabajo. Actualmente trabajo principalmente con React y Astro para el desarrollo Front-end y PHP, MySQL y MariaDB para el desarrollo Back-end.",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "Bogota",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "X",
+        "username": "Andres",
+        "url": "https://twitter.com/AndresS97279239"
+      },
+      {
+        "network": "GitHub",
+        "username": "Andres",
+        "url": "https://github.com/Sanchez042004"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Experiencia Práctica",
+      "position": "Colaborador en Proyectos Académicos",
+      "url": "https://company.com",
+      "startDate": "2021-07-02",
+      "endDate": null,
+      "summary": "Durante mi carrera, he participado en una variedad de proyectos prácticos que abarcan desde el diseño de una arquitectura para un software, hasta la implementación del mismo utilizando tecnologías recientes. Estos proyectos han sido importantes para mi desarrollo profesional y permiten una aplicación práctica de los conocimientos adquiridos.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Corporación Universitaria Minuto de Dios - UNIMINUTO",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Estudiante de Ingenieria de Sistemas",
+      "startDate": "2021-03-02",
+      "endDate": null,
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Colegio San José de Calasanz",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Bachiller Académico",
+      "startDate": "2010-01-25",
+      "endDate": "2020-11-19",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Astro"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "SQL Server"
+    },
+    {
+      "name": "PHP"
+    },
+    {
+      "name": "Java"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
+}
