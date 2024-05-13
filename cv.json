@@ -131,12 +131,16 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "name": "Animal Trip",
+      "highlights": ["Comodidad", "Viajes", "Mascotas", "Bienestar"],
+      "isActive": false,
+      "description": "Prototipo funcional de aplicación que ofrece viajes seguros y acompañamiento veterinario para mascotas en avión o autobús"
+    },
+    {
+      "name": "Transporto Bucardo",
+      "isActive": true,
+      "highlights": ["Transporte", "Autos", "Grúas", "Servicios"],
+      "description": "Prototipo de página web que permite a conductores solicitar servicios de remolque o asistencia vehicular de manera inmediata con solución eficaz"
     }
   ]
 }
