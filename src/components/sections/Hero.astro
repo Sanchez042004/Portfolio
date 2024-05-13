@@ -82,7 +82,7 @@ const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
 </Section>
 <style>
   .container {
-    margin-top: 40px;
+    margin-top: 4px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -148,5 +148,13 @@ const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
   footer a:hover {
     background: #eee;
     border: 1px solid #ddd;
+  }
+  html.dark {
+    background-color: #000004;
+    color: #fff;
+  }
+
+  .dark .nav-links a {
+    color: #fff;
   }
 </style>
