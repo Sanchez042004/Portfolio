@@ -132,14 +132,29 @@
   "projects": [
     {
       "name": "Animal Trip",
-      "highlights": ["Comodidad", "Viajes", "Mascotas", "Bienestar"],
+      "highlights": [
+        "Comodidad",
+        "Viajes",
+        "Mascotas",
+        "Bienestar",
+        "Java",
+        "SQL Server"
+      ],
       "isActive": false,
       "description": "Prototipo funcional de aplicación que ofrece viajes seguros y acompañamiento veterinario para mascotas en avión o autobús."
     },
     {
       "name": "Transporto Bucardo",
       "isActive": true,
-      "highlights": ["Transporte", "Autos", "Grúas", "Servicios"],
+      "highlights": [
+        "Transporte",
+        "Autos",
+        "Grúas",
+        "Servicios",
+        "En desarrollo",
+        "React",
+        "MySQL"
+      ],
       "description": "Prototipo de página web que permite a conductores solicitar servicios de remolque o asistencia vehicular de manera inmediata con solución eficaz."
     }
   ]

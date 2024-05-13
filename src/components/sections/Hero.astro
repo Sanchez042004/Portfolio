@@ -13,6 +13,11 @@ const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   X,
 };
+
+const GitInfo = profiles.find(({ network }) => network == "GitHub");
+const Giturl = GitInfo?.url;
+
+const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -25,46 +30,49 @@ const SOCIAL_ICONS: Record<string, any> = {
         {city}, {region}
       </span>
       <footer>
-        {
-          email && (
-            <a
-              href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Mail />
-            </a>
-          )
-        }
-        {
-          phone && (
-            <a
-              href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Phone />
-            </a>
-          )
-        }
-        {
-          profiles.map(({ network, url, username }) => {
-            const Icon = SOCIAL_ICONS[network];
-
-            return (
+        <div class="print">
+          {printInfo}
+        </div>
+        <div class="no-print">
+          {
+            email && (
               <a
-                href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
-                target="_blank"
+                href={`mailto:${email}`}
+                title={`Enviar un correo electrónico a ${name} al correo ${email}`}
                 rel="noopener noreferrer"
               >
-                <Icon />
+                <Mail />
               </a>
-            );
-          })
-        }
+            )
+          }
+          {
+            phone && (
+              <a
+                href={`tel:${phone}`}
+                title={`Llamar por teléfono a ${name} al número ${phone}`}
+                rel="noopener noreferrer"
+              >
+                <Phone />
+              </a>
+            )
+          }
+          {
+            profiles.map(({ network, url, username }) => {
+              const Icon = SOCIAL_ICONS[network];
+
+              return (
+                <a
+                  href={url}
+                  title={`Visitar el perfil de ${name} en ${network}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon />
+                </a>
+              );
+            })
+          }
+        </div>
       </footer>
     </div>
     <figure>
@@ -117,6 +125,8 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
 
   footer {
+    color: #555;
+    font-size: 0.7rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
