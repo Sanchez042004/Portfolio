@@ -57,7 +57,7 @@ const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
             )
           }
           {
-            profiles.map(({ network, url, username }) => {
+            profiles.map(({ network, url }) => {
               const Icon = SOCIAL_ICONS[network];
 
               return (
@@ -110,7 +110,7 @@ const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
 
   span {
     color: #666;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.25rem;
     font-size: 0.85rem;
@@ -126,7 +126,7 @@ const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
 
   footer {
     color: #555;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
@@ -137,12 +137,13 @@ const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #eee;
-    padding: 4px;
+    border: 0.8px solid #eee;
+    padding: 2px;
     height: 32px;
     width: 32px;
     border-radius: 6px;
     transition: all 0.3s ease;
+    margin: 6.5px;
   }
 
   footer a:hover {
