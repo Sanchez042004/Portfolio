@@ -105,17 +105,19 @@ const profilesInfo = profiles.map(({ network, url }) => {
     border-top: 1px solid #eee;
     position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: 101%;
     padding-block: 8px;
     text-align: center;
     font-size: 0.85rem;
-
     view-timeline-name: --revealing;
     view-timeline-axis: block;
-    animation: linear 0.3s fadeIn;
+    animation: linear 0.8s fadeIn;
     animation-timeline: --revealing;
-
     animation-range: entry 100% cover 10%;
+  }
+
+  .no-print {
+    color: #0c0c0c;
   }
 
   kbd {

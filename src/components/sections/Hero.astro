@@ -125,14 +125,15 @@ const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
   }
 
   footer {
-    color: #555;
+    color: #494848;
     font-size: 0.6rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
+    letter-spacing: 0.22px;
   }
 
-  footer a {
+  .footer a {
     color: #777;
     display: inline-flex;
     align-items: center;
@@ -146,7 +147,7 @@ const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
     margin: 6.5px;
   }
 
-  footer a:hover {
+  .footer a:hover {
     background: #eee;
     border: 1px solid #ddd;
   }

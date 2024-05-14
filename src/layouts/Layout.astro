@@ -176,6 +176,46 @@ const { title } = Astro.props;
     margin-left: -6.5px;
   }
 
+  footer a {
+    color: #746f6f;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.8px solid #eee;
+    padding: 2px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    margin: 6.5px;
+  }
+
+  footer a:hover {
+    background: #e7e6e6;
+    border: 1px solid #ddd;
+    color: rgb(126, 123, 123);
+  }
+
+  .dark footer a {
+    color: #fafafa;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.8px solid #eee;
+    padding: 2px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    margin: 6.5px;
+  }
+
+  .dark footer a:hover {
+    background: #f4eeee;
+    border: 1px solid #ddd;
+    color: black;
+  }
+
   @media print {
     .print {
       display: block !important;
