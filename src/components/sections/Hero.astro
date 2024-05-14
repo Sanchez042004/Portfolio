@@ -101,11 +101,14 @@ const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
     text-wrap: balance;
   }
 
-  img {
-    aspect-ratio: 1/1;
+  .img {
+    aspect-ratio: 1/1.25;
     object-fit: cover;
-    width: 128px;
-    border-radius: 16px;
+    width: 125px;
+    border-radius: 13px;
+    border-color: #000000bf;
+    border-style: solid;
+    border-width: 1.8px;
   }
 
   span {
@@ -147,8 +150,9 @@ const printInfo = [email, phone, Giturl].filter(Boolean).join(" • ");
     margin: 6.5px;
   }
 
-  .footer a:hover {
-    background: #eee;
+  footer a:hover {
+    background: #e1e0e0;
+    color: black;
     border: 1px solid #ddd;
   }
   html.dark {
