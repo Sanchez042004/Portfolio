@@ -190,12 +190,6 @@ const { title } = Astro.props;
     margin: 6.5px;
   }
 
-  footer a:hover {
-    background: #e7e6e6;
-    border: 1px solid #ddd;
-    color: rgb(126, 123, 123);
-  }
-
   .dark footer a {
     color: #fafafa;
     display: inline-flex;
@@ -214,6 +208,33 @@ const { title } = Astro.props;
     background: #f4eeee;
     border: 1px solid #ddd;
     color: black;
+  }
+
+  footer span {
+    border-radius: 9px;
+    background: #d1d5db;
+    color: #4b5563;
+    font-size: 0.68rem;
+    font-weight: 500;
+    padding: 0.125rem 0.625rem;
+  }
+  .dark footer span {
+    background: #4b5563;
+    color: #d1d5db;
+  }
+
+  .habilidades span {
+    border-radius: 10px;
+    background: #d1d5db;
+    color: #4b5563;
+    font-size: 0.68rem;
+    font-weight: 500;
+    padding: 0.125rem 0.625rem;
+  }
+
+  .dark .habilidades span {
+    background: #4b5563;
+    color: #d1d5db;
   }
 
   @media print {

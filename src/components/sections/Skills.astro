@@ -7,7 +7,7 @@ import { skills } from "@cv";
   <ul>
     {
       skills.map(({ name }) => (
-        <li>
+        <li class="habilidades">
           <span>{name}</span>
         </li>
       ))
@@ -22,17 +22,12 @@ import { skills } from "@cv";
     flex-wrap: wrap;
   }
 
-  li {
-    border-radius: 6px;
-    background: #eee;
-    color: black;
+  .span .habilidades {
+    border-radius: 10px;
+    background: #d1d5db;
+    color: #4b5563;
     font-size: 0.75rem;
     font-weight: 500;
-    padding: 0.2rem 0.6rem;
-  }
-
-  li:hover {
-    background: #8b8b8b;
-    transition: all 0.3s ease;
+    padding: 0.125rem 0.625rem;
   }
 </style>
