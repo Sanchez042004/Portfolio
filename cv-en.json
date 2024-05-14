@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Andrés Felipe Sánchez Arias",
+    "label": "Systems Engineering Student and Developer/Programmer",
+    "image": "https://avatars.githubusercontent.com/u/169620048?v=4",
+    "email": "andressanchezcalasanzsuba@gmail.com",
+    "phone": "+57 3012236454",
+    "url": "",
+    "summary": "As a Systems Engineering student, I have carried out multiple university projects. Always ensuring an environment where people can do their best work. Currently I work mainly with React and Astro for Front-end development and PHP, MySQL and MariaDB for Back-end development.",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "Bogotá",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "X",
+        "username": "Andres",
+        "url": "https://twitter.com/AndresS97279239"
+      },
+      {
+        "network": "GitHub",
+        "username": "Andres",
+        "url": "https://github.com/Sanchez042004"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Practical Experience",
+      "position": "Collaborator in Academic Projects",
+      "url": "https://company.com",
+      "startDate": "2021-07-02",
+      "endDate": null,
+      "summary": "During my career, I have participated in a variety of practical projects ranging from the design of a software architecture to its implementation using recent technologies. These projects have been important for my professional development and allow a practical application of the acquired knowledge.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Minuto de Dios University Corporation - UNIMINUTO",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Systems Engineering Student",
+      "startDate": "2021-03-02",
+      "endDate": null,
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "San José de Calasanz School",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Academic Bachelor",
+      "startDate": "2010-01-25",
+      "endDate": "2020-11-19",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Astro"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "SQL Server"
+    },
+    {
+      "name": "PHP"
+    },
+    {
+      "name": "Java"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Animal Trip",
+      "highlights": [
+        "Comfort",
+        "Travel",
+        "Pets",
+        "Wellness",
+        "Java",
+        "SQL Server"
+      ],
+      "isActive": false,
+      "description": "Functional prototype of an application that provides safe travel and veterinary accompaniment for pets by plane or bus."
+    },
+    {
+      "name": "Transporto Bucardo",
+      "isActive": true,
+      "highlights": [
+        "Transportation",
+        "Cars",
+        "Cranes",
+        "Services",
+        "In development",
+        "React",
+        "MySQL"
+      ],
+      "description": "Website prototype that allows drivers to request towing services or vehicle assistance immediately with an effective solution."
+    }
+  ]
+}

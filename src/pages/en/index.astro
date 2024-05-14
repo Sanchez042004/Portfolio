@@ -1,18 +1,18 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import About from "@/components/sections/About.astro";
-import Education from "@/components/sections/Education.astro";
-import Experience from "@/components/sections/Experience.astro";
-import Hero from "@/components/sections/Hero.astro";
-import Projects from "@/components/sections/Projects.astro";
-import Skills from "@/components/sections/Skills.astro";
-import KeyBoardManager from "@/components/KeyBoardManager.astro";
+import About from "@/pages/en/About.astro";
+import Education from "@/pages/en/Education.astro";
+import Experience from "@/pages/en/Experience.astro";
+import Hero from "@/pages/en/Hero.astro";
+import Projects from "@/pages/en/Projects.astro";
+import Skills from "@/pages/en/Skills.astro";
+import KeyBoardManager from "@/pages/KeyBoardManager.astro";
 import ThemeIcon from "@/components/ThemeIcon.astro";
-import { basics } from "@cv";
+import { basics } from "@cv-en";
 const { name, label } = basics;
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`}>
+<Layout title={`Portfolio | ${name} - ${label}`}>
   <main>
     <div
       class="idiomas"
