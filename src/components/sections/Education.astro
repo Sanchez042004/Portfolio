@@ -10,6 +10,22 @@ import { education } from "@cv";
         const startYear = new Date(startDate).getFullYear();
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Actual";
+        if (startYear == endYear) {
+          const years = `${startYear}`;
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <h3>{institution}</h3>
+                    <h4>{studyType}</h4>
+                  </div>
+                  <time>{years}</time>
+                </header>
+              </article>
+            </li>
+          );
+        }
         const years = `${startYear} - ${endYear}`;
         return (
           <li>

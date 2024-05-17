@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Andrés Felipe Sánchez Arias",
+    "name": "Andrés Sánchez",
     "label": "Estudiante de Ingeniería en Sistemas y desarrollador/programador",
     "image": "https://avatars.githubusercontent.com/u/169620048?v=4",
     "email": "andressanchezcalasanzsuba@gmail.com",
     "phone": "+57 3012236454",
     "url": "",
-    "summary": "Como estudiante de Ingeniería en Sistemas, he llevado a cabo múltiples proyectos universitarios. Garantizando siempre un entorno donde las personas puedan hacer su mejor trabajo. Actualmente trabajo principalmente con React y Astro para el desarrollo Front-end y PHP, MySQL y MariaDB para el desarrollo Back-end.",
+    "summary": "Como estudiante, he realizado múltiples proyectos universitarios, asegurando siempre un entorno donde las personas puedan dar lo mejor de sí mismas. Actualmente, trabajo con los frameworks React y Astro para el desarrollo front-end, y utilizo PHP, MySQL y MariaDB para el desarrollo back-end.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
-      "city": "Bogotá",
+      "city": "Bogotá D.C",
       "countryCode": "CO",
       "region": "Colombia"
     },
@@ -29,12 +29,12 @@
   },
   "work": [
     {
-      "name": "Experiencia Práctica",
-      "position": "Colaborador en Proyectos Académicos",
+      "name": "Colaborador en Proyectos Académicos",
+      "position": "",
       "url": "https://company.com",
       "startDate": "2021-07-02",
       "endDate": null,
-      "summary": "Durante mi carrera, he participado en una variedad de proyectos prácticos que abarcan desde el diseño de una arquitectura para un software, hasta la implementación del mismo utilizando tecnologías recientes. Estos proyectos han sido importantes para mi desarrollo profesional y permiten una aplicación práctica de los conocimientos adquiridos.",
+      "summary": "Durante mi carrera, he participado en una variedad de proyectos prácticos que abarcan desde el diseño de la arquitectura de un software, hasta la implementación del mismo utilizando tecnologías Front-end y Back-end. Estos proyectos han sido importantes para mi desarrollo profesional y permiten una aplicación práctica de los conocimientos adquiridos.",
       "highlights": ["Started the company"]
     }
   ],
@@ -43,19 +43,49 @@
       "institution": "Corporación Universitaria Minuto de Dios - UNIMINUTO",
       "url": "https://institution.com/",
       "area": "Software Development",
-      "studyType": "Estudiante de Ingenieria de Sistemas",
+      "studyType": "Ingeniería de Sistemas",
       "startDate": "2021-03-02",
       "endDate": null,
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
     },
     {
-      "institution": "Colegio San José de Calasanz",
+      "institution": "Código Facilito",
       "url": "https://institution.com/",
       "area": "Software Development",
-      "studyType": "Bachiller Académico",
-      "startDate": "2010-01-25",
-      "endDate": "2020-11-19",
+      "studyType": "Curso Profesional en Desarrollo Web",
+      "startDate": "2022-10-11",
+      "endDate": "2022-10-11",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Cisco Networking Academy",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "NDG Linux Essentials",
+      "startDate": "2022-03-11",
+      "endDate": "2022-05-24",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Coursera",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Analítica de ventas para la toma de decisiones con Power BI",
+      "startDate": "2022-02-15",
+      "endDate": "2022-03-27",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Coursera",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Power BI para Business Intelligence",
+      "startDate": "2022-02-15",
+      "endDate": "2022-03-04",
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
     }
@@ -109,6 +139,9 @@
     },
     {
       "name": "Java"
+    },
+    {
+      "name": "JavaScript"
     }
   ],
   "languages": [

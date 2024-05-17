@@ -70,6 +70,7 @@ const { title } = Astro.props;
       "Open Sans",
       "Helvetica Neue",
       sans-serif;
+    font-weight: 550;
   }
 
   .dark h2 {
@@ -92,7 +93,7 @@ const { title } = Astro.props;
     color: #111;
   }
   .dark article h3 {
-    font-weight: 500;
+    font-weight: 550;
     color: #cac9c9;
   }
 
@@ -104,7 +105,7 @@ const { title } = Astro.props;
   .dark .article-1 article {
     background: #111;
     border-color: #444;
-    gap: 16px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     padding: 16px;
@@ -130,8 +131,6 @@ const { title } = Astro.props;
     object-fit: cover;
     width: 125px;
     border-radius: 13px;
-    border-color: #ffffff;
-    border-style: solid;
     border-width: 1.8px;
   }
 
@@ -140,23 +139,21 @@ const { title } = Astro.props;
     object-fit: cover;
     width: 125px;
     border-radius: 13px;
-    border-color: #000000bf;
-    border-style: solid;
     border-width: 1.8px;
   }
 
   p {
     color: #666;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    font-size: 0.874rem;
+    line-height: 1.4;
     margin: 0;
     text-wrap: pretty;
   }
 
   .dark p {
     color: #d6d5d5;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    font-size: 0.874rem;
+    line-height: 1.4;
     margin: 0;
     text-wrap: pretty;
   }
@@ -172,25 +169,11 @@ const { title } = Astro.props;
   }
 
   .background {
-    position: fixed;
-    inset: 0;
-    z-index: -10;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to right, #f0f0f0 1px, transparent 1px),
-      linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
-    background-size: 6rem 4rem;
+    color: white;
   }
 
   .dark .background {
-    position: fixed;
-    inset: 0;
-    z-index: -10;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to right, #7e7d7d15 1px, transparent 1px),
-      linear-gradient(to bottom, #7e7d7d15 1px, transparent 1px);
-    background-size: 6rem 4rem;
+    color: black;
   }
 
   @media print {
@@ -203,7 +186,7 @@ const { title } = Astro.props;
     display: none !important;
   }
   .no-print {
-    margin-left: -6.5px;
+    margin-left: -1px;
   }
 
   footer a {
@@ -211,13 +194,13 @@ const { title } = Astro.props;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 0.8px solid #eee;
-    padding: 2px;
-    height: 32px;
-    width: 32px;
+    border: 1px solid #e6e6e6;
+    padding: 1px;
+    height: 28px;
+    width: 28px;
     border-radius: 6px;
     transition: all 0.3s ease;
-    margin: 6.5px;
+    margin: 0.5px;
   }
 
   .dark footer a {
@@ -225,13 +208,12 @@ const { title } = Astro.props;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 0.8px solid #eee;
-    padding: 2px;
-    height: 32px;
-    width: 32px;
+    border: 1px solid #eee;
+    padding: 1px;
+    height: 28px;
+    width: 28px;
     border-radius: 6px;
     transition: all 0.3s ease;
-    margin: 6.5px;
   }
 
   .dark footer a:hover {
@@ -244,7 +226,7 @@ const { title } = Astro.props;
     border-radius: 9px;
     background: #d1d5db;
     color: #4b5563;
-    font-size: 0.68rem;
+    font-size: 0.6rem;
     font-weight: 500;
     padding: 0.125rem 0.625rem;
   }
