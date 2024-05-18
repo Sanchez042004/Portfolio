@@ -253,8 +253,38 @@ const { title } = Astro.props;
   }
 
   @media print {
+    body,
+    body *,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #222 !important;
+    }
+
+    .background {
+      color: #fff;
+    }
+
+    a {
+      color: black;
+    }
+
+    .no-print {
+      display: none !important;
+    }
     .print {
       display: block !important;
+    }
+
+    span.activo {
+      display: none !important;
+    }
+
+    span.no-activo {
+      display: none !important;
     }
   }
 </style>
