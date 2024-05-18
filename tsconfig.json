@@ -5,6 +5,7 @@
     "paths": {
       "@cv": ["./cv.json"],
       "@cv-en": ["./cv-en.json"],
+      "@cv-br": ["./cv-br.json"],
       "@/*": ["src/*"]
     }
   }

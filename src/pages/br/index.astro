@@ -1,14 +1,14 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import About from "@/components/sections/About.astro";
-import Education from "@/components/sections/Education.astro";
-import Experience from "@/components/sections/Experience.astro";
-import Hero from "@/components/sections/Hero.astro";
-import Projects from "@/components/sections/Projects.astro";
-import Skills from "@/components/sections/Skills.astro";
-import KeyBoardManager from "@/components/KeyBoardManager.astro";
+import About from "@/pages/br/About.astro";
+import Education from "@/pages/br/Education.astro";
+import Experience from "@/pages/br/Experience.astro";
+import Hero from "@/pages/br/Hero.astro";
+import Projects from "@/pages/br/Projects.astro";
+import Skills from "@/pages/br/Skills.astro";
+import KeyBoardManager from "@/pages/br/KeyBoardManager.astro";
 import ThemeIcon from "@/components/ThemeIcon.astro";
-import { basics } from "@cv";
+import { basics } from "@cv-br";
 const { name, label } = basics;
 ---
 
@@ -20,7 +20,7 @@ const { name, label } = basics;
       <div class="no-print">
         <a href="/">ES</a>&nbsp; &nbsp;|&nbsp;
         <a href="/en">EN</a>&nbsp; &nbsp;|&nbsp;
-        <a href="/br">BR</a>
+        <a href="/pt">BR</a>
       </div>
     </div>
     <ThemeIcon />
@@ -36,6 +36,5 @@ const { name, label } = basics;
 <style>
   .a {
     color: black;
-    text-decoration: none;
   }
 </style>

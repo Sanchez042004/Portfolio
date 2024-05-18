@@ -1,15 +1,15 @@
 ---
 import Section from "@/components/Section.astro";
-import { education } from "@cv-en";
+import { education } from "@cv-br";
 ---
 
-<Section title="Education">
+<Section title="Educação">
   <ul>
     {
       education.map(({ institution, studyType, startDate, endDate }) => {
         const startYear = new Date(startDate).getFullYear();
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actually";
+          endDate != null ? new Date(endDate).getFullYear() : "Atual";
         if (startYear == endYear) {
           const years = `${startYear}`;
           return (
@@ -76,6 +76,6 @@ import { education } from "@cv-en";
   .about {
     max-width: 700px;
     margin: 0 auto 38px;
-    margin-bottom: 63px;
+    margin-bottom: 6px;
   }
 </style>

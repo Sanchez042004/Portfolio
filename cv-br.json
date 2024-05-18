@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Andrés Sánchez",
-    "label": "Systems Engineering Student and Developer / Programmer",
+    "label": "Estudante de engenharia de sistemas e Desenvolvedor / Programador",
     "image": "https://avatars.githubusercontent.com/u/169620048?v=4",
     "email": "andressanchezcalasanzsuba@gmail.com",
     "phone": "+57 3012236454",
     "url": "",
-    "summary": "As a student, I was involved in many university projects, always ensuring a space where people can reach their full potential. Currently, I work with React and Astro frameworks for dynamic and static front-end development, and use PHP, MySQL and MariaDB for back-end development.",
+    "summary": "Como estudante, participei de vários projetos universitários, sempre garantindo um espaço onde as pessoas possam atingir seu potencial máximo. Atualmente, trabalho com os frameworks React e Astro para desenvolvimento front-end dinâmico e estático, e uso PHP, MySQL e MariaDB para desenvolvimento back-end.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -29,21 +29,21 @@
   },
   "work": [
     {
-      "name": "Collaborator in Academic Projects",
+      "name": "Colaborador em projetos acadêmicos",
       "position": "",
       "url": "https://company.com",
       "startDate": "2021-07-02",
       "endDate": null,
-      "summary": "I participated in projects focused on the design and implementation of data and software architectures. In these projects we used development and data management technologies such as MySQL and Excel, in addition to this, we implemented the Kimball methodology for project management through Business Intelligence and Data Warehouse.",
+      "summary": "Participei de projetos focados no design e na implementação de arquiteturas de dados e software. Nesses projetos, foram utilizadas tecnologias de desenvolvimento e gerenciamento de dados, como MySQL e Excel, além de ter sido implementada a metodologia Kimball para o gerenciamento de projetos por meio de Business Intelligence e Data Warehouse.",
       "highlights": ["Started the company"]
     }
   ],
   "education": [
     {
-      "institution": "Minuto de Dios University Corporation - UNIMINUTO",
+      "institution": "Corporação Universitária Minuto de Dios - UNIMINUTO",
       "url": "https://institution.com/",
       "area": "Software Development",
-      "studyType": "Systems Engineering",
+      "studyType": "Engenharia de sistemas",
       "startDate": "2021-03-02",
       "endDate": null,
       "score": "4.0",
@@ -53,7 +53,7 @@
       "institution": "Código Facilito",
       "url": "https://institution.com/",
       "area": "Software Development",
-      "studyType": "Professional Web Development Course",
+      "studyType": "Curso Profissional em Desenvolvimento Web",
       "startDate": "2022-10-11",
       "endDate": "2022-10-11",
       "score": "4.0",
@@ -73,7 +73,7 @@
       "institution": "Coursera",
       "url": "https://institution.com/",
       "area": "Software Development",
-      "studyType": "Sales analytics for decision making with Power BI",
+      "studyType": "Análise de vendas para tomada de decisões com o Power BI",
       "startDate": "2022-02-15",
       "endDate": "2022-03-27",
       "score": "4.0",
@@ -83,7 +83,7 @@
       "institution": "Coursera",
       "url": "https://institution.com/",
       "area": "Software Development",
-      "studyType": "Power BI for Business Intelligence",
+      "studyType": "Power BI para Business Intelligence",
       "startDate": "2022-02-15",
       "endDate": "2022-03-04",
       "score": "4.0",
@@ -166,29 +166,29 @@
     {
       "name": "Animal Trip",
       "highlights": [
-        "Comfort",
-        "Travel",
-        "Pets",
-        "Wellness",
+        "Conforto",
+        "Viagens",
+        "Animais de estimação",
+        "Bem-estar",
         "Java",
         "SQL Server"
       ],
       "isActive": false,
-      "description": "Functional prototype of an application that provides safe travel and veterinary accompaniment for pets by plane or bus."
+      "description": "Protótipo funcional de um aplicativo que oferece viagem segura e acompanhamento veterinário para animais de estimação em aviões ou ônibus."
     },
     {
       "name": "Transporto Bucardo",
       "isActive": true,
       "highlights": [
-        "Transportation",
-        "Cars",
-        "Cranes",
-        "Services",
-        "In development",
+        "Transporte",
+        "Automóveis",
+        "Guindastes",
+        "Serviços",
+        "Em desenvolvimento",
         "React",
         "MySQL"
       ],
-      "description": "Website prototype that allows drivers to request towing services or vehicle assistance immediately with an effective solution."
+      "description": "Protótipo de site que permite que os motoristas solicitem serviços de reboque ou assistência ao veículo imediatamente com uma solução eficaz."
     }
   ]
 }

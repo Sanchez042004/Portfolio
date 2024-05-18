@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Andrés Sánchez",
-    "label": "Estudiante de Ingeniería en Sistemas y desarrollador/programador",
+    "label": "Estudiante de Ingeniería en Sistemas y Desarrollador / Programador",
     "image": "https://avatars.githubusercontent.com/u/169620048?v=4",
     "email": "andressanchezcalasanzsuba@gmail.com",
     "phone": "+57 3012236454",
     "url": "",
-    "summary": "Como estudiante, he realizado múltiples proyectos universitarios, asegurando siempre un entorno donde las personas puedan dar lo mejor de sí mismas. Actualmente, trabajo con los frameworks React y Astro para el desarrollo front-end, y utilizo PHP, MySQL y MariaDB para el desarrollo back-end.",
+    "summary": "Como estudiante, he participado en varios proyectos universitarios, asegurando siempre un espacio donde las personas puedan alcanzar su máximo potencial. Actualmente, trabajo con los frameworks de React y Astro para el desarrollo front-end dinámico y estático, y utilizo PHP, MySQL y MariaDB para el desarrollo back-end.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -34,7 +34,7 @@
       "url": "https://company.com",
       "startDate": "2021-07-02",
       "endDate": null,
-      "summary": "Durante mi carrera, he participado en una variedad de proyectos prácticos que abarcan desde el diseño de la arquitectura de un software, hasta la implementación del mismo utilizando tecnologías Front-end y Back-end. Estos proyectos han sido importantes para mi desarrollo profesional y permiten una aplicación práctica de los conocimientos adquiridos.",
+      "summary": "He formado parte de proyectos enfocados en el diseño e implementación de arquitecturas de datos y software. En estos proyectos se utilizaron tecnologías de desarrollo y gestión de datos como MySQL y Excel, además de esto, se implementó la metodología Kimball para la gestión de los proyectos mediante Business Intelligence y Data Warehouse. ",
       "highlights": ["Started the company"]
     }
   ],
