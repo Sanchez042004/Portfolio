@@ -77,6 +77,62 @@ import { projects } from "@cv-br";
     margin-bottom: 4px;
   }
 
+  @media (min-width: 768px) {
+    article p {
+      font-size: 1.05rem; /* Tamaño para pantallas grandes */
+      line-height: 1.5rem;
+      margin-bottom: 1px;
+      margin-top: 8px;
+    }
+
+    article {
+      border-radius: 8px;
+      border: 4.5px solid #dfdfdf;
+      gap: 16px;
+      display: flex;
+      flex-direction: column;
+      padding: 16px;
+      height: 100%;
+      background: #ffffff;
+    }
+    footer span {
+      border-radius: 9px;
+      background: #d1d5db;
+      color: #4b5563;
+      font-size: 1.1rem;
+      font-weight: 500;
+      padding: 0.125rem 0.625rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    article p {
+      font-size: 0.75rem; /* Tamaño para pantallas extra grandes */
+      line-height: 1.2rem;
+      margin-bottom: 4px;
+    }
+
+    article {
+      border-radius: 8px;
+      border: 1.6px solid #dfdfdf;
+      gap: 16px;
+      display: flex;
+      flex-direction: column;
+      padding: 16px;
+      height: 100%;
+      background: #ffffff;
+    }
+
+    footer span {
+      border-radius: 9px;
+      background: #d1d5db;
+      color: #4b5563;
+      font-size: 0.7rem;
+      font-weight: 500;
+      padding: 0.125rem 0.625rem;
+    }
+  }
+
   footer {
     display: flex;
     flex-wrap: wrap;
@@ -87,10 +143,33 @@ import { projects } from "@cv-br";
 
   .footer span {
     border-radius: 6px;
-    background: #d1d5db;
+    background: #0e3978;
     color: #4b5563;
     font-size: 0.75rem;
     font-weight: 500;
     padding: 0.125rem 0.625rem;
+  }
+
+  @media (min-width: 768px) {
+    article {
+      border-radius: 8px;
+      border: 1.6px solid #dfdfdf;
+      gap: 16px;
+      display: flex;
+      flex-direction: column;
+      padding: 16px;
+      height: 100%;
+      background: #ffffff;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      font-size: 0.6rem;
+      margin-bottom: -25px;
+    }
   }
 </style>

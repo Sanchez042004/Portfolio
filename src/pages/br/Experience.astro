@@ -32,14 +32,45 @@ import { work } from "@cv-br";
     </ul>
   </Section>
 </div>
-
 <style>
   ul {
     display: flex;
     flex-direction: column;
     gap: 32px;
   }
+  @media (min-width: 768px) {
+    ul h3 {
+      font-size: 1.87rem;
+    }
+  }
 
+  @media (min-width: 1024px) {
+    ul h3 {
+      font-size: 1.17rem;
+    }
+  }
+
+  time {
+    font-size: 0.87rem;
+  }
+
+  @media (min-width: 414px) {
+    time {
+      font-size: 0.87rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    time {
+      font-size: 1.17rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    time {
+      font-size: 0.87rem;
+    }
+  }
   .article h3 {
     font-weight: 500;
     color: #111;
@@ -65,9 +96,15 @@ import { work } from "@cv-br";
     margin-bottom: 6px;
   }
 
-  .experience {
-    max-width: 700px;
-    margin: 0 auto 38px;
-    margin-bottom: 20px;
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.47rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    p {
+      font-size: 0.874rem; /* Tamaño para pantallas extra grandes */
+    }
   }
 </style>

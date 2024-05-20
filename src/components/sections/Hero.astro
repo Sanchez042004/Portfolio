@@ -20,7 +20,7 @@ const printInfo = [email, phone].filter(Boolean).join(" • ");
 <Section>
   <div class="container">
     <div class="info">
-      <h1>{name}</h1>
+      <h1 class="text-2xl font-bold responsive-h1">{name}</h1>
       <h2>{label}</h2>
       <a href="https://www.google.com/maps/place/Bogota" target="_blank">
         <span>
@@ -59,7 +59,6 @@ const printInfo = [email, phone].filter(Boolean).join(" • ");
         {
           profiles.map(({ network, url }) => {
             const Icon = SOCIAL_ICONS[network];
-
             return (
               <a
                 href={url}
@@ -79,6 +78,7 @@ const printInfo = [email, phone].filter(Boolean).join(" • ");
     </figure>
   </div>
 </Section>
+
 <style>
   .container {
     margin-top: 1px;
@@ -89,8 +89,16 @@ const printInfo = [email, phone].filter(Boolean).join(" • ");
     gap: 1rem;
   }
 
-  h1 {
-    font-size: 1.8rem;
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 2.4rem; /* Tamaño para pantallas grandes */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 1.8rem; /* Tamaño para pantallas extra grandes */
+    }
   }
 
   h2 {
@@ -100,6 +108,18 @@ const printInfo = [email, phone].filter(Boolean).join(" • ");
     text-wrap: balance;
   }
 
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 1.7rem; /* Tamaño para pantallas grandes */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 1.15rem; /* Tamaño para pantallas extra grandes */
+    }
+  }
+
   img {
     aspect-ratio: 1/1.25;
     object-fit: cover;
@@ -107,7 +127,6 @@ const printInfo = [email, phone].filter(Boolean).join(" • ");
     border-radius: 20px;
     border-width: 1.8px;
   }
-
   span {
     color: #666;
     display: inline-flex;
@@ -117,6 +136,18 @@ const printInfo = [email, phone].filter(Boolean).join(" • ");
     letter-spacing: -0.05rem;
     margin-left: 0.5px;
   }
+  @media (min-width: 768px) {
+    span {
+      font-size: 1.2rem; /* Tamaño para pantallas grandes */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    span {
+      font-size: 0.87rem; /* Tamaño para pantallas extra grandes */
+    }
+  }
+
   span:hover {
     text-decoration: underline;
   }
@@ -155,6 +186,7 @@ const printInfo = [email, phone].filter(Boolean).join(" • ");
     color: black;
     border: 1px solid #ddd;
   }
+
   html.dark {
     background-color: #000004;
     color: #fff;
