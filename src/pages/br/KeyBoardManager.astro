@@ -91,6 +91,11 @@ const profilesInfo = profiles.map(({ network, url }) => {
     }
   }
 
+  @media (min-width: 768px) {
+    ninja-keys {
+      display: none !important;
+    }
+  }
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -118,6 +123,20 @@ const profilesInfo = profiles.map(({ network, url }) => {
 
   .no-print {
     color: #0c0c0c;
+  }
+
+  @media (min-width: 768px) {
+    .no-print {
+      color: #0c0c0c;
+      display: none;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .no-print {
+      color: #0c0c0c;
+      display: block;
+    }
   }
 
   kbd {

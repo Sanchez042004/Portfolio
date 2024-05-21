@@ -204,6 +204,39 @@ const { title } = Astro.props;
     margin: 0.5px;
   }
 
+  @media (min-width: 768px) {
+    footer a {
+      color: #746f6f;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #e6e6e6;
+      padding: 1px;
+      height: 70px;
+      width: 70px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      margin: 0.5px;
+      margin-right: 10px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    footer a {
+      color: #746f6f;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #e6e6e6;
+      padding: 1px;
+      height: 28px;
+      width: 28px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      margin: 0.5px;
+    }
+  }
+
   .dark footer a {
     color: #ddd4d4;
     display: inline-flex;

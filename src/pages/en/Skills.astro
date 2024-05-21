@@ -21,6 +21,23 @@ import { skills } from "@cv-en";
     gap: 8px;
     flex-wrap: wrap;
   }
+  @media (min-width: 768px) {
+    ul {
+      display: inline-flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 0px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    ul {
+      display: inline-flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 0px;
+    }
+  }
 
   .span .habilidades {
     border-radius: 10px;
@@ -36,9 +53,10 @@ import { skills } from "@cv-en";
       border-radius: 10px;
       background: #d1d5db;
       color: #4b5563;
-      font-size: 1.11rem;
+      font-size: 1.3rem;
       font-weight: 500;
       padding: 0.125rem 0.625rem;
+      margin-left: 12px;
     }
   }
 
@@ -49,6 +67,7 @@ import { skills } from "@cv-en";
       color: #4b5563;
       font-size: 0.7rem;
       font-weight: 500;
+      margin-left: 0px;
       padding: 0.125rem 0.625rem;
     }
   }
