@@ -43,6 +43,21 @@ import { projects } from "@cv";
     gap: 1rem;
   }
 
+  @media (min-width: 768px) {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+      gap: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+  }
   article {
     border-radius: 8px;
     border: 1.6px solid #dfdfdf;
@@ -61,8 +76,21 @@ import { projects } from "@cv";
 
   article h3 {
     margin-bottom: 4px;
+    font-size: 1.4rem;
+  }
+  @media (min-width: 768px) {
+    article h3 {
+      margin-bottom: 4px;
+      font-size: 1.4rem;
+    }
   }
 
+  @media (min-width: 1024px) {
+    article h3 {
+      margin-bottom: 4px;
+      font-size: 1.17rem;
+    }
+  }
   article h3 span.activo {
     color: rgb(0, 210, 52);
   }
@@ -79,7 +107,7 @@ import { projects } from "@cv";
 
   @media (min-width: 768px) {
     article p {
-      font-size: 1.05rem; /* Tamaño para pantallas grandes */
+      font-size: 1.35rem; /* Tamaño para pantallas grandes */
       line-height: 1.5rem;
       margin-bottom: 1px;
       margin-top: 8px;
