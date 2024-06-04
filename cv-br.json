@@ -202,11 +202,11 @@
         "Pandas",
         "Jupyter",
         "NumPy",
-        "Matplotlib",
+        "Machine Learning",
         "Scikit Learn"
       ],
       "isActive": true,
-      "description": "Projeto responsável por extrair dados livres de diabetes e doenças cardíacas para análise, permitindo a detecção precoce de doenças cardíacas e diabetes.",
+      "description": "Projeto de Machine Learning responsável por extrair dados livres de diabetes e doenças cardíacas para análise, permitindo a detecção precoce.",
       "url": "https://github.com/Sanchez042004/Heart-Diabetes-ML"
     }
   ]
