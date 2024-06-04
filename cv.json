@@ -206,7 +206,7 @@
         "Scikit Learn"
       ],
       "isActive": true,
-      "description": "Proyecto de Machine Learing encargado de extraer datos libres de diabetes y enfermedades cardiacas para su análisis.",
+      "description": "Proyecto de Machine Learning encargado de extraer datos libres de diabetes y enfermedades cardiacas para su análisis.",
       "url": "https://github.com/Sanchez042004/Heart-Diabetes-ML"
     }
   ]
