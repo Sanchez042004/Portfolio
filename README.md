@@ -1,3 +1,6 @@
+My CV:
+https://cv-andres.netlify.app/en/
+
 CV JSON Schema:
 https://jsonresume.org/schema/
 
