@@ -1,8 +1,8 @@
-Schema del JSON de CV:
+CV JSON Schema:
 https://jsonresume.org/schema/
 
-Basado en el diseño de:
+Based on the design of:
 https://github/BartoszJarocki/cv
 
-Adaptado y modificado de:
+Adapted and modified from:
 https://github.com/midudev/minimalist-portfolio-json
