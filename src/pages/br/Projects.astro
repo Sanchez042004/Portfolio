@@ -6,7 +6,7 @@ import { projects } from "@cv-br";
 <Section title="Projetos">
   <ul>
     {
-      projects.map(({ name, description, highlights, isActive }) => {
+      projects.map(({ name, description, highlights, isActive, url }) => {
         return (
           <li>
             <element class="article-1">
@@ -14,8 +14,16 @@ import { projects } from "@cv-br";
                 <div class="proyecto">
                   <header>
                     <h3>
-                      {name} {isActive && <span class="activo">&bull;</span>}
-                      {isActive == false && (
+                      {isActive ? (
+                        <a href={url} target="_blank">
+                          {name}
+                        </a>
+                      ) : (
+                        <span>{name}</span>
+                      )}
+                      {isActive ? (
+                        <span class="activo">&bull;</span>
+                      ) : (
                         <span class="no-activo">&bull;</span>
                       )}
                     </h3>

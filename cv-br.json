@@ -142,6 +142,9 @@
     },
     {
       "name": "JavaScript"
+    },
+    {
+      "name": "Python"
     }
   ],
   "languages": [
@@ -174,11 +177,12 @@
         "SQL Server"
       ],
       "isActive": false,
-      "description": "Protótipo funcional de um aplicativo que oferece viagem segura e acompanhamento veterinário para animais de estimação em aviões ou ônibus."
+      "description": "Protótipo funcional de um aplicativo que oferece viagem segura e acompanhamento veterinário para animais de estimação em aviões ou ônibus.",
+      "url": ""
     },
     {
       "name": "Transporto Bucardo",
-      "isActive": true,
+      "isActive": false,
       "highlights": [
         "Transporte",
         "Automóveis",
@@ -188,7 +192,22 @@
         "React",
         "MySQL"
       ],
-      "description": "Protótipo de site que permite que os motoristas solicitem serviços de reboque ou assistência ao veículo imediatamente com uma solução eficaz."
+      "description": "Protótipo de site que permite que os motoristas solicitem serviços de reboque ou assistência ao veículo imediatamente.",
+      "url": ""
+    },
+    {
+      "name": "Heart & Diabetes ML",
+      "highlights": [
+        "Python",
+        "Pandas",
+        "Jupyter",
+        "NumPy",
+        "Matplotlib",
+        "Scikit Learn"
+      ],
+      "isActive": true,
+      "description": "Projeto responsável por extrair dados livres de diabetes e doenças cardíacas para análise, permitindo a detecção precoce de doenças cardíacas e diabetes.",
+      "url": "https://github.com/Sanchez042004/Heart-Diabetes-ML"
     }
   ]
 }

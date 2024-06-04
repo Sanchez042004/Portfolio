@@ -142,6 +142,9 @@
     },
     {
       "name": "JavaScript"
+    },
+    {
+      "name": "Python"
     }
   ],
   "languages": [
@@ -174,11 +177,12 @@
         "SQL Server"
       ],
       "isActive": false,
-      "description": "Functional prototype of an application that provides safe travel and veterinary accompaniment for pets by plane or bus."
+      "description": "Functional prototype of an application that provides safe travel and veterinary accompaniment for pets by plane or bus.",
+      "url": ""
     },
     {
       "name": "Transporto Bucardo",
-      "isActive": true,
+      "isActive": false,
       "highlights": [
         "Transportation",
         "Cars",
@@ -188,7 +192,22 @@
         "React",
         "MySQL"
       ],
-      "description": "Website prototype that allows drivers to request towing services or vehicle assistance immediately with an effective solution."
+      "description": "Website prototype that allows drivers to request towing services or vehicle assistance immediately with an effective solution.",
+      "url": ""
+    },
+    {
+      "name": "Heart & Diabetes ML",
+      "highlights": [
+        "Python",
+        "Pandas",
+        "Jupyter",
+        "NumPy",
+        "Matplotlib",
+        "Scikit Learn"
+      ],
+      "isActive": true,
+      "description": "Project in charge of extracting data free of diabetes and heart diseases for analysis, allowing the detection of early heart and diabetes diseases.",
+      "url": "https://github.com/Sanchez042004/Heart-Diabetes-ML"
     }
   ]
 }
