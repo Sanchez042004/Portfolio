@@ -176,9 +176,9 @@
         "Java",
         "SQL Server"
       ],
-      "isActive": false,
+      "isActive": true,
       "description": "Protótipo funcional de um aplicativo que oferece viagem segura e acompanhamento veterinário para animais de estimação em aviões ou ônibus.",
-      "url": ""
+      "url": "https://github.com/Sanchez042004/animal-trip"
     },
     {
       "name": "Transporto Bucardo",
