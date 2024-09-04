@@ -1,0 +1,117 @@
+---
+import Section from "../../components/Section.astro";
+import { others } from "@cv-br";
+---
+
+<Section title="Outros estudos">
+    <ul>
+        {
+            others.map(({ institution, studyType, startDate, endDate }) => {
+                const startYear = new Date(startDate).getFullYear();
+                const endYear =
+                    endDate != null
+                        ? new Date(endDate).getFullYear()
+                        : "Actual";
+                if (startYear == endYear) {
+                    const years = `${startYear}`;
+                    return (
+                        <li>
+                            <article>
+                                <header>
+                                    <div>
+                                        <h3>{institution}</h3>
+                                        <h4>{studyType}</h4>
+                                    </div>
+                                    <time>{years}</time>
+                                </header>
+                            </article>
+                        </li>
+                    );
+                }
+                const years = `${startYear} - ${endYear}`;
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <h3>{institution}</h3>
+                                    <h4>{studyType}</h4>
+                                </div>
+                                <time>{years}</time>
+                            </header>
+                        </article>
+                    </li>
+                );
+            })
+        }
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .article h3 {
+        font-weight: 500;
+        color: #111;
+    }
+
+    .article h4 {
+        color: #222;
+        font-weight: 400;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+
+    .time {
+        font-size: 0.85rem;
+        color: #555;
+    }
+
+    @media (min-width: 768px) {
+        time {
+            font-size: 1.65rem;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        time {
+            font-size: 0.87rem;
+        }
+    }
+    @media (min-width: 768px) {
+        h3 {
+            font-size: 1.78rem;
+            margin-top: 20px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 0px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        h4 {
+            font-size: 1.64rem;
+            font-weight: 640;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        h4 {
+            font-size: 0.97rem;
+            font-weight: 460;
+        }
+    }
+</style>

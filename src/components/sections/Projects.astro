@@ -6,41 +6,54 @@ import { projects } from "@cv";
 <Section title="Proyectos">
   <ul>
     {
-      projects.map(({ name, description, highlights, isActive, url }) => {
-        return (
-          <li>
-            <element class="article-1">
-              <article>
-                <div class="proyecto">
-                  <header>
-                    <h3>
-                      {isActive ? (
-                        <a href={url} target="_blank">
-                          {name}
-                        </a>
-                      ) : (
-                        <span>{name}</span>
-                      )}
-                      {isActive ? (
-                        <span class="activo">&bull;</span>
-                      ) : (
-                        <span class="no-activo">&bull;</span>
-                      )}
-                    </h3>
-                    <p>{description}</p>
-                  </header>
+      projects.map(
+        ({
+          name,
+          description,
+          highlights,
+          isActive,
+          startDate,
+          endDate,
+          url,
+        }) => {
+          return (
+            <li>
+              <element class="article-1">
+                <article>
+                  <p class="fechas">
+                    {startDate} - {endDate}
+                  </p>
+                  <div class="proyecto">
+                    <header>
+                      <h3>
+                        {isActive ? (
+                          <a href={url} target="_blank">
+                            {name}
+                          </a>
+                        ) : (
+                          <span>{name}</span>
+                        )}
+                        {isActive ? (
+                          <span class="activo">&bull;</span>
+                        ) : (
+                          <span class="no-activo">&bull;</span>
+                        )}
+                      </h3>
+                      <p>{description}</p>
+                    </header>
 
-                  <footer>
-                    {highlights.map((highlight) => {
-                      return <span>{highlight}</span>;
-                    })}
-                  </footer>
-                </div>
-              </article>
-            </element>
-          </li>
-        );
-      })
+                    <footer>
+                      {highlights.map((highlight) => {
+                        return <span>{highlight}</span>;
+                      })}
+                    </footer>
+                  </div>
+                </article>
+              </element>
+            </li>
+          );
+        },
+      )
     }
   </ul>
 </Section>
@@ -94,6 +107,12 @@ import { projects } from "@cv";
     background: #ffffff;
   }
 
+  article p.fechas {
+    font-size: 11.65px;
+    margin-bottom: -5px;
+    color: #888888;
+    font-style: unset;
+  }
   @media (min-width: 768px) {
     article {
       flex-direction: column;

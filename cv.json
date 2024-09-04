@@ -6,7 +6,7 @@
     "email": "afsarias2004@gmail.com",
     "phone": "+57 3012236454",
     "url": "",
-    "summary": "Como estudiante, he participado en varios proyectos universitarios, asegurando siempre un espacio donde las personas puedan alcanzar su máximo potencial. Actualmente, trabajo con los frameworks de React y Astro para el desarrollo front-end dinámico y estático, y utilizo PHP, MySQL y MariaDB para el desarrollo back-end.",
+    "summary": "Ingeniero de Sistemas en formación en la Corporación Universitaria Minuto de Dios, con experiencia académica en desarrollo de software e inteligencia de negocios. Interesado en el desarrollo front-end con frameworks como React y Astro, y en el back-end utilizando tecnologías como PHP, MySQL, MariaDB y Python. Con sólidos conocimientos en gestión de proyectos, diseño de arquitecturas y manejo de bases de datos. Destacado por su habilidad para optimizar el rendimiento del equipo, colaborar de manera efectiva, desarrollar soluciones prácticas y llevar a cabo análisis críticos.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -45,7 +45,19 @@
       "area": "Software Development",
       "studyType": "Ingeniería de Sistemas",
       "startDate": "2021-03-02",
-      "endDate": null,
+      "endDate": "2025-03-12",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "others": [
+    {
+      "institution": "Udemy",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Python Development Professional Certification",
+      "startDate": "2023-10-11",
+      "endDate": "2023-10-11",
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
     },
@@ -56,16 +68,6 @@
       "studyType": "Curso Profesional en Desarrollo Web",
       "startDate": "2022-10-11",
       "endDate": "2022-10-11",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
-    },
-    {
-      "institution": "Cisco Networking Academy",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "NDG Linux Essentials",
-      "startDate": "2022-03-11",
-      "endDate": "2022-05-24",
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
     },
@@ -86,6 +88,16 @@
       "studyType": "Power BI para Business Intelligence",
       "startDate": "2022-02-15",
       "endDate": "2022-03-04",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Cisco Networking Academy",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "NDG Linux Essentials",
+      "startDate": "2022-10-11",
+      "endDate": "2022-10-11",
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
     }
@@ -178,7 +190,9 @@
       ],
       "isActive": true,
       "description": "Prototipo funcional de aplicación que ofrece viajes seguros y acompañamiento veterinario para mascotas en avión o autobús.",
-      "url": "https://github.com/Sanchez042004/animal-trip"
+      "url": "https://github.com/Sanchez042004/animal-trip",
+      "startDate": "Febrero 2023",
+      "endDate": "Junio 2023"
     },
     {
       "name": "Transporto Bucardo",
@@ -188,12 +202,14 @@
         "Autos",
         "Grúas",
         "Servicios",
-        "En desarrollo",
         "React",
-        "MySQL"
+        "MySQL",
+        "Business Intelligence"
       ],
       "description": "Prototipo de página web que permite a conductores solicitar servicios de remolque o asistencia vehicular de manera inmediata con solución eficaz.",
-      "url": ""
+      "url": "",
+      "startDate": "Agosto 2023",
+      "endDate": "Noviembre 2023"
     },
     {
       "name": "Heart & Diabetes ML",
@@ -207,7 +223,9 @@
       ],
       "isActive": true,
       "description": "Proyecto de Machine Learning encargado de extraer datos libres de diabetes y enfermedades cardiacas para su análisis.",
-      "url": "https://github.com/Sanchez042004/Heart-Diabetes-ML"
+      "url": "https://github.com/Sanchez042004/Heart-Diabetes-ML",
+      "startDate": "Abril 2024",
+      "endDate": "Junio 2024"
     }
   ]
 }
