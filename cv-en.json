@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Andrés Sánchez",
-    "label": "Systems Engineering Student and Developer / Programmer",
+    "label": "Systems Engineer, Developer and Data Analyst",
     "image": "https://lh3.googleusercontent.com/a/ACg8ocJrBwSZ_P7KSEOjdWFZpf5dHGkuySTIC3c1S3EPaFuv1WPBAe4=s360-c-no",
     "email": "afsarias2004@gmail.com",
     "phone": "+57 3012236454",
@@ -157,6 +157,15 @@
     },
     {
       "name": "Python"
+    },
+    {
+      "name": "Business Intelligence"
+    },
+    {
+      "name": "R"
+    },
+    {
+      "name": "Data Analysis"
     }
   ],
   "languages": [
@@ -226,6 +235,21 @@
       "url": "https://github.com/Sanchez042004/Heart-Diabetes-ML",
       "startDate": "April 2024",
       "endDate": "June 2024"
+    },
+    {
+      "name": "Blackjack Strategic Analysis",
+      "highlights": [
+        "R",
+        "Neural Networks",
+        "KDD",
+        "LaTex",
+        "Data Analysis"
+      ],
+      "isActive": true,
+      "description": "Project that applies data mining to analyze Blackjack games in casinos, extracting patterns and generating strategies to optimize decisions during the game.",
+      "url": "https://github.com/Sanchez042004/blackjack-analysis",
+      "startDate": "August 2024",
+      "endDate": "November 2024"
     }
   ]
 }
