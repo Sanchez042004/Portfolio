@@ -5,6 +5,7 @@ import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
 import X from "@/icons/X.astro";
 import GitHub from "@/icons/GitHub.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -12,6 +13,7 @@ const { city, region } = location;
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   X,
+  LinkedIn,
 };
 
 const printInfo = [email, phone].filter(Boolean).join(" • ");
